@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kennisopdracht</title>
+    <style>
+        body {
+            font-family: monospace, sans-serif, 'Times New Roman', Times, serif;
+        }
+        input[type=search] {
+            float: right;
+            margin-top: 24px;
+        }
+        h1 {
+            font-family: 'Merriweather', serif;
+            font-size: 48px;
+            margin: 0px;
+        }
+        p {
+            margin-top: 2px;
+        }
+        button {
+			color: white;
+			background-color: black;
+			font-size: 19px;
+			border: 1px solid black;
+			padding: 15px 50px;
+			cursor: pointer;
+            margin-bottom: 8px;
+		}
+		button:hover {
+			color: black;
+			background-color: white;
+		}
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        a:hover {
+            color:black;
+        }
+        .container {
+            background-color: lightgrey;
+            box-sizing: border-box;
+            padding: 8px;
+        }
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        textarea {
+            height: 200px;
+        }
+        input[type=submit] {
+            color: white;
+			background-color: black;
+			font-size: 19px;
+			border: 1px solid black;
+			padding: 15px 50px;
+			cursor: pointer;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        input[type=submit]:hover {
+			color: black;
+			background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://www.next.youngcapital.nl" target="_blank"><img src="https://next.youngcapital.nl/logos/svg/next.svg"></a>
+        <input type="search" placeholder="Search..">
+    </div>    
+    <br>
+    <h1>Quincy Tromp</h1>
+    <p style="font-size: 14px"><em>DevOps Engineer trainee</em></p>
+    <img src="images/quincy.png" alt="quincy picture">
+    <p><strong>Hi, ik ben Quincy, en ik wil graag DevOps engineer worden.</strong></p>
+    <hr>
+    <h3>Beschikbaarheid:</h3>
+    <table bgcolor="black">
+        <tr bgcolor="grey">
+            <th>Maandag</th>
+            <th>Dinsdag</th>
+            <th>Woensdag</th>
+            <th>Donderdag</th>
+            <th>Vrijdag</th>
+            <th>Zaterdag</th>
+            <th>Zondag</th>
+        </tr>
+        <tr bgcolor="lightgrey">
+            <td>08:00 - 17:30</td>
+            <td>08:00 - 17:30</td>
+            <td>08:00 - 17:30</td>
+            <td>08:00 - 17:30</td>
+            <td>08:00 - 17:30</td>
+            <td>niet beschikbaar</td>
+            <td>niet beschikbaar</td>
+        </tr>
+    </table>
+    <br>
+    <div class="container">
+        <h3>Assessment:</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>Git Bash</li>
+        </ul>
+    </div>
+    <br>
+    <button><a href="https://www.next.youngcapital.nl/" target="_blank">WERKEN BIJ YOUNGCAPITAL NEXT</a></button>
+    <br>
+    <div class="container">
+        <h3>Contact Form</h3>
+        <div>
+            <form>
+                <label for="firstname">Naam</label>
+                <input type="text" name="firstname" placeholder="Jouw naam..">
+                <label for="keuze">Keuze</label>
+                <select name="keuze" id="keuze">
+                    <option value="vraag">Vraag</option>
+                    <option value="review">Review</option>
+                    <option value="opmerking">Opmerking</option>
+                    <option value="anders">Anders</option>
+                </select>
+                <label for="text">Text</label>
+                <textarea name="text" id="text" placeholder="Schrijf hier.."></textarea>
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
